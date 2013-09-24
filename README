@@ -1,0 +1,15 @@
+Stringent
+
+A mosfet optimizer
+
+This optimizer contains 2 modes: a bruteforce tester and a equation based optimizer
+
+Bruteforce
+The bruteforce method tests different input variables and analyzes the output to find a optimium solution.
+
+Equation
+The equation based optimizer parses the netlists and derives EKV equations for each measurement.
+Then the equation system is solved using octave and verified using ngspice.
+
+Additional software used:
+Octave, ngspice, gnuplot
